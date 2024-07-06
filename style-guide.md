@@ -13,7 +13,7 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Blue: hsl(246, 80%, 60%)
+- Background Blue: hsl(246, 80%, 60%)
 
 - Light red (work): hsl(15, 100%, 70%)
 - Soft blue (play): hsl(195, 74%, 62%)
@@ -25,7 +25,7 @@ The designs were created to the following widths:
 ### Neutral
 
 - Very dark blue: hsl(226, 43%, 10%)
-- Dark blue: hsl(235, 46%, 20%)
+- Dark blue second layer for first div: hsl(235, 46%, 20%)
 - Desaturated blue: hsl(235, 45%, 61%)
 - Pale Blue: hsl(236, 100%, 87%)
 
