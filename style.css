@@ -39,12 +39,21 @@ color: white;
   position: absolute;
   z-index: 2;
   background: hsl(246, 80%, 60%);
-  height: 110px;  
+  height: 100px;  
   width: 100%;
   left: 0px;
   top: 0px;
+  padding-left: 0px;
   border-radius: 15px
 }
+
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+}
+
 
 .dark-blue-box {
   position: absolute;
@@ -57,12 +66,6 @@ color: white;
   border-radius: 15px
 }
 
-img {
-  width: 100%;
-  height: auto;
-  border: 2px solid #ffffff;
-  border-radius: 50%;
-}
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
