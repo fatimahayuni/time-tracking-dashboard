@@ -1,17 +1,92 @@
-*,
-*::before,
-*::after {
+* {
   box-sizing: border-box;
 }
 
-body {
-  overflow-x:hidden;
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.bg-color-dark-blue {
-  background-color: hsl(226, 43%, 10%);
+[class*="col-"] {
+  /* float: right; */
+  padding-top: 15px;
+  padding-right: 0px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+
+.main-container {
+  position: relative;
+  border: 1px solid red;
+  height: 160px;
   margin: 0px;
-  max-width: 100%;
+  padding: 0px;
+}
+
+.purple-box {
+  position: absolute;
+  background:  hsl(246, 80%, 60%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.dark-blue-box {
+  position: absolute;
+  background: hsl(235, 46%, 20%);;
+  height: 120px;  
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: 40px;
+  
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 3px solid #ffffff;
 }
 
 .rubik-16px-300{
@@ -29,43 +104,5 @@ color: white;
   font-size: 16px;
   font-weight: 300;
   font-style: normal;
+  color: white;
 }
-
-.container {
-  position: relative;
-}
-
-.purple-box {
-  position: absolute;
-  z-index: 2;
-  background: hsl(246, 80%, 60%);
-  height: 150px;  
-  width: 100%;
-  left: 11px;
-  top: 0px;
-  padding-left: 0px;
-  border-radius: 15px
-}
-
-img {
-  width: 100%;
-  height: auto;
-  border: 3px solid #ffffff;
-  
-}
-
-
-.dark-blue-box {
-  position: absolute;
-  z-index: 1;
-  background: hsl(235, 46%, 20%);
-  width: 100%;
-  left: 0px;
-  top: 120px;
-  height: 100px;
-  border-radius: 15px
-}
-
-
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
