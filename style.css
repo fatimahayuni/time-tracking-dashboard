@@ -107,12 +107,77 @@ color: white;
   color: white;
 }
 
-.theme-box {
+.theme-box-work {
   position: absolute;
   background-image:  url("./images/icon-work.svg");
   background-position: right;
   background-repeat: no-repeat;
   background-color: hsl(15, 100%, 70%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.theme-box-play {
+  position: absolute;
+  background-image:  url("./images/icon-play.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: hsl(195, 74%, 62%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.theme-box-study {
+  position: absolute;
+  background-image:  url("./images/icon-study.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: hsl(348, 100%, 68%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.theme-box-exercise {
+  position: absolute;
+  background-image:  url("./images/icon-exercise.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color:  hsl(145, 58%, 55%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.theme-box-social {
+  position: absolute;
+  background-image:  url("./images/icon-social.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: hsl(264, 64%, 52%);
+  height: 100px;
+  width: 100%;
+  left: 0px;
+  border-radius: 15px;
+  top: auto;
+}
+
+.theme-box-self-care {
+  position: absolute;
+  background-image:  url("./images/icon-self-care.svg");
+  background-position: right;
+  background-repeat: no-repeat;
+  background-color: hsl(43, 84%, 65%);
   height: 100px;
   width: 100%;
   left: 0px;
